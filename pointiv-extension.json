@@ -1,0 +1,44 @@
+{
+  "name": "Subscription Manager",
+  "description": "Track subscriptions, free trials, and renewal dates. Select a receipt or confirmation email and run track to add it. Shows what is due, what is overdue, and what you spend each month.",
+  "version": "1.0.0",
+  "author": "arnavdewan",
+  "keywords": [
+    "sub",
+    "subs",
+    "subscription",
+    "subscriptions",
+    "track",
+    "renew",
+    "renewal",
+    "renewals",
+    "recurring",
+    "trial",
+    "trials",
+    "free trial",
+    "cancel",
+    "unsubscribe",
+    "due",
+    "expiry",
+    "expires",
+    "expiring",
+    "billing",
+    "bills",
+    "payments",
+    "membership",
+    "spend",
+    "spending"
+  ],
+  "runtime": "wasm",
+  "main": "extension.wasm",
+  "permissions": [
+    "storage",
+    "ai",
+    "google_calendar"
+  ],
+  "tiles": {
+    "height": 2,
+    "zone": "right",
+    "order": 0
+  }
+}
